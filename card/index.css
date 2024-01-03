@@ -130,4 +130,59 @@ body{
 
 .analysis:last-child{
     border-right: none;
-}
+} 
+
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .profile-card {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .profile-card::before {
+      height: 25%; 
+    }
+  
+    .card {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .information .name {
+      font-size: 24px; 
+    }
+  
+    .information .job {
+      font-size: 16px; 
+    }
+  
+    .media-button .link {
+      font-size: 16px; 
+      height: 28px;
+      width: 28px;
+    }
+  
+    .button .submit {
+      padding: 6px 14px; /* Adjust padding for smaller screens */
+      margin: 0 5px; /* Adjust margin for smaller screens */
+    }
+  
+    .data .analysis {
+      padding: 0 10px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .profile-card {
+      max-width: 70%; 
+    }
+  }
+  
+  /* Large Desktop Styles */
+  @media (min-width: 1025px) {
+    .profile-card {
+      max-width: 500px; 
+    }
+  }
+  
