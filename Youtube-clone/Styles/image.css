@@ -1,0 +1,19 @@
+.thumbnail-row{
+
+    margin-bottom: 8px;
+}
+
+.image{
+    width: 90%;
+}
+
+.channel-pic{
+ 
+   width: 36px;
+   vertical-align: top;
+   
+}
+.profile-pic{
+    width: 36px;
+  border-radius: 50%;
+}
